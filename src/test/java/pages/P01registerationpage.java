@@ -14,6 +14,7 @@ public class P01registerationpage {
         WebElement username = driver.findElement(usernamee);
         return username;
     }
+
     public WebElement LastnameElement(){
         By LastNamee = By.name("LastName");
         WebElement LastName = driver.findElement(LastNamee);
