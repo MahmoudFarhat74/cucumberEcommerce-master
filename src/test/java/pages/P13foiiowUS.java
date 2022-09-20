@@ -15,6 +15,22 @@ public class P13foiiowUS {
         WebElement Facebook = driver.findElement(By.xpath("/html/body/div[6]/div[4]/div[1]/div[4]/div[1]/ul/li[1]/a"));
         return Facebook;
     }
+    public WebElement twitterlogo(){
+        By twiteer = By.name("twitter");
+        WebElement twitter = driver.findElement(By.xpath("/html/body/div[6]/div[4]/div[1]/div[4]/div[1]/ul/li[2]/a"));
+        return twitter;
+    }
+    public WebElement thirdlogo(){
+        By thirdd = By.name("third");
+        WebElement third = driver.findElement(By.xpath("/html/body/div[6]/div[4]/div[1]/div[4]/div[1]/ul/li[3]/a"));
+        return third;
+    }
+
+    public WebElement youtube(){
+        By youtubee = By.name("youtube");
+        WebElement youtube = driver.findElement(By.xpath("/html/body/div[6]/div[4]/div[1]/div[4]/div[1]/ul/li[4]/a"));
+        return youtube;
+    }
     public void navhome() throws InterruptedException {
         driver.navigate().to("https://demo.nopcommerce.com/");
         Thread.sleep(3000);
